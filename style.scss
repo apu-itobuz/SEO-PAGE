@@ -1,20 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Playfair Display;
 }
-// .myPlants{
-//     font-family: Playfair Display;
-//     font-weight: ;
-// }
+
+.myPlants {
+  font-family: Playfair Display;
+  font-weight: 500;
+}
 
 .naveForm {
-    position: relative;
+  position: relative;
 }
 
 .naveForm .search {
-    position: absolute;
-    right: 20px;
-    top: 10px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+// Plant collection
+.heading {
+  font-family: Playfair Display;
+  font-weight: 500;
+  color: #09270d;
+}
+
+.plantColloction p {
+  font-weight: 500;
+  color: #09270d;
+}
+
+.orangeArrow {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #f5c771;
+  border-radius: 50%;
+  color: #f5c771;
+}
+
+.blackArrow {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
 }

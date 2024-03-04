@@ -3,6 +3,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Playfair Display;
+}
+
+.myPlants {
+  font-family: Playfair Display;
+  font-weight: 500;
 }
 
 .naveForm {
@@ -13,4 +19,31 @@
   position: absolute;
   right: 20px;
   top: 10px;
+}
+
+.heading {
+  font-family: Playfair Display;
+  font-weight: 500;
+  color: #09270d;
+}
+
+.plantColloction p {
+  font-weight: 500;
+  color: #09270d;
+}
+
+.orangeArrow {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #f5c771;
+  border-radius: 50%;
+  color: #f5c771;
+}
+
+.blackArrow {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
