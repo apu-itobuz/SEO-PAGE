@@ -46,4 +46,23 @@
   border: 1px solid black;
   border-radius: 50%;
   color: black;
+}
+
+.ourJourneybutton {
+  border-radius: 40px !important;
+  background-color: rgb(9, 39, 30) !important;
+  padding: 5px 25px 5px 25px !important;
+  font-family: Poppins !important;
+}
+
+.plants {
+  position: relative;
+}
+
+.rectangle {
+  position: absolute;
+}
+
+.moneyplant {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
