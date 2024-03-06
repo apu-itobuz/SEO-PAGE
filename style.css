@@ -48,21 +48,140 @@
   color: black;
 }
 
+.ourJourney {
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.leaf,
+.figLeaves,
+.halfLeaf {
+  display: none;
+}
+
 .ourJourneybutton {
   border-radius: 40px !important;
   background-color: rgb(9, 39, 30) !important;
   padding: 5px 25px 5px 25px !important;
   font-family: Poppins !important;
-}
-
-.plants {
-  position: relative;
-}
-
-.rectangle {
-  position: absolute;
+  box-shadow: #ccc;
+  width: 60%;
 }
 
 .moneyplant {
-  position: absolute;
+  margin: auto;
+  width: 80%;
+}
+
+.moneyplant img {
+  width: 100%;
+}
+
+.ourJourneyInfo p {
+  line-height: 25px;
+  color: #727272;
+  font-size: 1rem;
+}
+
+.ourAdvantages.heading {
+  color: #09270D;
+}
+
+.easyOrderInfo {
+  background-color: #FCFBF9;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.easyOrderInfo h6 {
+  line-height: 20px;
+  font-family: Poppins !important;
+}
+
+.easyOrderInfo p {
+  font-family: Poppins !important;
+}
+
+.icon {
+  width: 20%;
+  height: 20%;
+  margin-left: -8%;
+}
+
+@media (min-width: 768px) {
+  .leaf,
+  .figLeaves,
+  .halfLeaf {
+    display: none;
+  }
+  .ourJourney {
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ourJourneyInfo {
+    width: 50%;
+    margin-top: 8rem;
+  }
+  .ourJourneybutton {
+    width: 60%;
+  }
+  .easyOrderInfo p {
+    width: 70%;
+  }
+}
+@media (min-width: 1020px) {
+  .leaf,
+  .figLeaves,
+  .halfLeaf {
+    display: block;
+  }
+  .ourJourneybutton {
+    width: 60%;
+  }
+  .ourJourneyInfo {
+    margin-top: 10px;
+  }
+  .ourJourneybutton {
+    width: 40%;
+  }
+  .figLeaves {
+    margin-top: -41rem;
+    width: 20%;
+    right: -30px;
+  }
+  .leaf {
+    top: 0px;
+    left: 40px;
+  }
+  .halfLeaf {
+    top: 100px;
+  }
+  .easyOrderInfo p {
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .moneyplant {
+    margin: auto;
+    width: 40%;
+  }
+  .moneyplant img {
+    width: 100%;
+  }
+  .ourJourneybutton {
+    width: 40% !important;
+  }
+  .ourJourneyInfo {
+    width: 30%;
+    margin-top: 8rem;
+  }
+  .figLeaves {
+    margin-top: -41rem;
+    width: 20%;
+    right: -57px;
+  }
 }/*# sourceMappingURL=style.css.map */

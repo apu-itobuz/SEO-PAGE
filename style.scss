@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -50,18 +51,175 @@
 }
 
 // Our journey
-.ourJourneybutton{
-  border-radius: 40px !important ;
-  background-color: rgb(9,39,30) !important;
-  padding: 5px 25px 5px 25px !important;
-  font-family: Poppins !important;
-}
-.plants{
+.ourJourney {
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  padding: 50px;
   position: relative;
 }
-.rectangle{
-  position: absolute;
+
+.leaf,
+.figLeaves,
+.halfLeaf {
+  display: none;
 }
-.moneyplant{
-  position: absolute;
+
+.ourJourneybutton {
+  border-radius: 40px !important;
+  background-color: rgb(9, 39, 30) !important;
+  padding: 5px 25px 5px 25px !important;
+  font-family: Poppins !important;
+  box-shadow: #ccc;
+  width: 60%;
+}
+
+
+.moneyplant {
+  margin: auto;
+  width: 80%;
+}
+
+.moneyplant img {
+  width: 100%;
+}
+
+.ourJourneyInfo p {
+  line-height: 25px;
+  color: #727272;
+  font-size: 1rem;
+}
+// Our advantages
+.ourAdvantages.heading{
+  color: #09270D;
+}
+.easyOrderInfo{
+  background-color: #FCFBF9;
+  padding: 16px;
+  border-radius: 20px;
+}
+.easyOrderInfo h6{
+  line-height: 20px;
+  font-family: Poppins !important;
+
+}
+.easyOrderInfo p{
+  font-family: Poppins !important;
+  }
+.icon{
+width: 20%;
+height: 20%;
+margin-left: -8%;
+
+}
+
+
+//------------------------------------------------------
+@media (min-width: 768px) {
+
+  // Our journey
+  .leaf,
+  .figLeaves,
+  .halfLeaf {
+    display: none;
+  }
+
+  .ourJourney {
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ourJourneyInfo {
+    width: 50%;
+    margin-top: 8rem;
+  }
+
+  .ourJourneybutton {
+    width: 60%;
+  }
+
+  .easyOrderInfo p{
+    width: 70%;
+  }
+
+
+
+}
+
+
+//------------------------------------------------------
+@media (min-width: 1020px) {
+
+  // Our journey
+  .leaf,
+  .figLeaves,
+  .halfLeaf {
+    display: block;
+  }
+
+  .ourJourneybutton {
+    width: 60%;
+  }
+
+  .ourJourneyInfo {
+    margin-top: 10px;
+  }
+
+  .ourJourneybutton {
+    width: 40%;
+  }
+
+  .figLeaves {
+    margin-top: -41rem;
+    width: 20%;
+    right: -30px;
+  }
+
+  .leaf {
+    top: 0px;
+    left: 40px;
+  }
+
+  .halfLeaf {
+    top: 100px;
+  }
+  // Our advantages
+  .easyOrderInfo p{
+    width: 100%;
+  }
+
+
+
+}
+
+
+
+//------------------------------------------------------
+@media (min-width: 1440px) {
+
+  // Our journey
+  .moneyplant {
+    margin: auto;
+    width: 40%;
+  }
+
+  .moneyplant img {
+    width: 100%;
+  }
+
+  .ourJourneybutton {
+    width: 40% !important;
+  }
+
+  .ourJourneyInfo {
+    width: 30%;
+    margin-top: 8rem;
+  }
+
+  .figLeaves {
+    margin-top: -41rem;
+    width: 20%;
+    right: -57px;
+  }
 }
