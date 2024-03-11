@@ -86,6 +86,10 @@
   font-size: 1rem;
 }
 
+.leafGroup {
+  display: none;
+}
+
 .ourAdvantages.heading {
   color: #09270D;
 }
@@ -111,6 +115,40 @@
   margin-left: -8%;
 }
 
+.leafGroupFaceook,
+.leafFacebook {
+  display: none;
+}
+
+.ourFacebook {
+  padding: 80px 0px;
+}
+
+.indoorPlant {
+  width: 100%;
+}
+
+.facebookForm {
+  width: 100%;
+  background-color: #FAF9F7;
+}
+
+.formInfo input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: #FAF9F7;
+}
+
+.formButton {
+  width: 30%;
+  background-color: #09270D !important;
+}
+
+.formIcon {
+  width: 38%;
+}
+
 @media (min-width: 768px) {
   .leaf,
   .figLeaves,
@@ -132,6 +170,12 @@
   .easyOrderInfo p {
     width: 70%;
   }
+  .leafGroup {
+    display: none;
+  }
+  .indoorPlant {
+    width: 100%;
+  }
 }
 @media (min-width: 1020px) {
   .leaf,
@@ -150,8 +194,8 @@
   }
   .figLeaves {
     margin-top: -41rem;
-    width: 20%;
-    right: -30px;
+    width: 14%;
+    right: 4px;
   }
   .leaf {
     top: 0px;
@@ -162,6 +206,32 @@
   }
   .easyOrderInfo p {
     width: 100%;
+  }
+  .leafGroup {
+    display: block;
+    width: 42%;
+    right: -83px;
+    top: -71px;
+  }
+  .facebookForm {
+    height: 40%;
+    position: relative;
+    left: -42px;
+  }
+  .indoorPlant {
+    width: 60%;
+  }
+  .leafGroupFaceook,
+  .leafFacebook {
+    display: block;
+  }
+  .leafGroupFaceook {
+    left: -4px;
+    bottom: -159px;
+  }
+  .leafFacebook {
+    left: -617px;
+    bottom: -196px;
   }
 }
 @media (min-width: 1440px) {
@@ -181,7 +251,15 @@
   }
   .figLeaves {
     margin-top: -41rem;
-    width: 20%;
-    right: -57px;
+    width: 14%;
+    right: 4px;
+  }
+  .leafGroup {
+    width: 42%;
+    right: 6px;
+    top: -134px;
+  }
+  .indoorPlant {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
